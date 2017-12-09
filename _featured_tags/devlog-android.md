@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Algorithm
-slug: algorithm
+title: Android
+slug: android
 category: devlog
 menu: false
-order: 1
+order: 2
 ---

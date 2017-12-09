@@ -4,7 +4,7 @@ title: Review
 slug: review
 menu: true
 submenu: true
-order: 6
+order: 2
 description: >
   보고 사용한것들을 리뷰합니다.
 ---
