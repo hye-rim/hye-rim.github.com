@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "안드로이드 라이브러리 사용하기 - 001.Butter Knife"
+comments: true
 subtitle:   "ButterKnife를 사용해보자"
 categories: devlog
 tags: android
