@@ -2,12 +2,13 @@
 layout: post
 title:  "안드로이드 라이브러리 사용하기 - 001.Butter Knife"
 comments: true
-subtitle:   "ButterKnife를 사용해보자"
 categories: devlog
 tags: android
 ---
 
-![butterknifeLogo](https://github.com/JakeWharton/butterknife/raw/master/website/static/logo.png)  
+**ButterKnife를 사용해보자**
+
+![butterknifeLogo](https://github.com/JakeWharton/butterknife/raw/master/website/static/logo.png)
 ~~버터가 먹고싶어지는 로고다~~
 
 ButterKnife는 필드나 메소드가 안드로이드 뷰에 접근할 때 어노테이션(@)을 사용하여 더욱 편하게 접근하여 개발할 수 있도록 도와주는 라이브러리다.

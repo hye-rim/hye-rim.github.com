@@ -7,6 +7,8 @@ categories: devlog
 tags: java
 ---
 
+**String, new String** - String 생성방식의 차이
+
 ~~~java
 String a = new String("hello");
 String b = new String("hello");
@@ -34,7 +36,7 @@ String d = "hello";
 그렇다면 c와 d는 **같은 객체를 참조**한다는 뜻이다. c가 선언되면 String constant pool에 "hello"가 저장될 것이고, d는 "hello"가 이미 있으므로 c와 같은 부분을 참조하게 된다. 그러므로 == 연산자의 결과는 `true`이다.
 
 - - -
-주로 코드를 작성할 때 new String을 많이 쓰는데, 이럴 경우엔 호출될 때마다 항상 새로운 객체가 생성되므로 낭비가 된다. 그러므로 이 방법은 피하는 편이 좋고 아래처럼 사용하는 것이 좋다.
+나는 주로 코드를 작성할 때 new String을 많이 쓰는데, 이럴 경우엔 호출될 때마다 항상 새로운 객체가 생성되므로 낭비가 된다. 그러므로 이 방법은 피하는 편이 좋고 아래처럼 사용하는 것이 좋다.
 
 ~~~java
 String str = "hello";
