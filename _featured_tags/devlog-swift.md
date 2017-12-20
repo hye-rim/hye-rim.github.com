@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Java
-slug: java
+title: Swift
+slug: swift
 category: devlog
 menu: false
-order: 2
+order: 4
 ---
