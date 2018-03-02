@@ -68,7 +68,7 @@ android {
 <br/>
 만약 개발 서버와 릴리즈 서버가 구분되어 있으면 `buildConfigField`를 활용합니다.
 
-![buildtypes-api_server](/assets//img/android/buildTypes-api_server.png){: width="300" height="300"}
+![buildtypes-api_server](/assets//img/android/buildTypes-api_server.png){: width="80%" height="80%"}
 
 ~~~java
 android {
@@ -105,7 +105,7 @@ private Retrofit getRetrofitSetting() {
 
 다음 포스팅에서는 아래 그림처럼 구현하기 위해 productFlavors를 추가로 알아보겠습니다.
 
-![buildtypes+productFlavors](/assets/img/android/buildtypes+productflavors.png){: width="300" height="300"}
+![buildtypes+productFlavors](/assets/img/android/buildtypes+productflavors.png){: width="80%" height="80%"}
 
 
 
