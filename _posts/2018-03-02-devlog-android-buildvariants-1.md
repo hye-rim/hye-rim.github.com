@@ -6,7 +6,7 @@ categories: devlog
 tags: android
 ---
 
-##[Gradle Build Variants] 다양한 버전의 앱 생성하기 - 1
+## [Gradle Build Variants] 다양한 버전의 앱 생성하기 - 1
 ---
 
 앱을 개발하다 보면 한가지 버전의 앱만으로는 아쉬울 때가 종종 있습니다. 예를 들어
