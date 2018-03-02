@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "Gradle Build Variants - 다양한 버전의 앱 생성하기 - 1"
+title:  "[Gradle Build Variants] 다양한 버전의 앱 생성하기 - 1"
 comments: true
 categories: devlog
 tags: android
----
-
-## [Gradle Build Variants] 다양한 버전의 앱 생성하기 - 1
 ---
 
 앱을 개발하다 보면 한가지 버전의 앱만으로는 아쉬울 때가 종종 있습니다. 예를 들어
@@ -65,13 +62,13 @@ android {
 
 아래 그림처럼 **Build Variant** 에서 변경할 수 있습니다.
 
-![buildvariant_build_type](/assets/img/android/buildvariants-buildTypes.png)
+![buildvariant_build_type](/assets/img/android/buildvariants-buildTypes.png){: width="300" height="300"}
 
 <br/>
 <br/>
 만약 개발 서버와 릴리즈 서버가 구분되어 있으면 `buildConfigField`를 활용합니다.
 
-![buildtypes-api_server](/assets//img/android/buildTypes-api_server.png)
+![buildtypes-api_server](/assets//img/android/buildTypes-api_server.png){: width="300" height="300"}
 
 ~~~java
 android {
@@ -108,7 +105,7 @@ private Retrofit getRetrofitSetting() {
 
 다음 포스팅에서는 아래 그림처럼 구현하기 위해 productFlavors를 추가로 알아보겠습니다.
 
-![buildtypes+productFlavors](/assets/img/android/buildtypes+productflavors.png)
+![buildtypes+productFlavors](/assets/img/android/buildtypes+productflavors.png){: width="300" height="300"}
 
 
 
