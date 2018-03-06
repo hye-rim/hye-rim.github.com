@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Gradle Build Variants] 다양한 버전의 앱 생성하기 - 1"
+title:  "[Gradle Build Variants] 다양한 버전의 앱 생성하기 - buildType"
 comments: true
 categories: devlog
 tags: android
@@ -104,12 +104,14 @@ private Retrofit getRetrofitSetting() {
 <br/>
 
 다음 포스팅에서는 아래 그림처럼 구현하기 위해 productFlavors를 추가로 알아보겠습니다.
-
+[[Gradle Build Variants] 다양한 버전의 앱 생성하기 - productFlavors](https://hye-rim.github.io/devlog/2018/03/02/devlog-android-buildvariants-2/)
 ![buildtypes+productFlavors](/assets/img/android/buildtypes+productflavors.png){: width="80%" height="80%"}
 
 
+<br/>
+<br/>
+<br/>
 
-
->참고
-https://developer.android.com/studio/build/build-variants.html
-http://gun0912.tistory.com/74
+> 참고
+> https://developer.android.com/studio/build/build-variants.html
+> http://gun0912.tistory.com/74
