@@ -13,14 +13,14 @@ tags: android
 - 앱의 크기가 커져서 가벼운 버전을 선호하는 사용자를 위한 lite version 앱
 - 관리자를 위한 admin version 앱
 
->만약 buildType 속성을 활용해 debug, alpha, beta, release 등 build type을 달리 설정하는 방법이 궁금하시다면 아래의 이전 글을 참고해주세요.
+>만약 buildType 속성을 활용해 debug, alpha, beta, release 등 build type을 달리 설정하는 방법이 궁금하시다면 아래의 이전 글을 참고해주세요.  
 > [[Gradle Build Variants] 다양한 버전의 앱 생성하기 - buildType](https://hye-rim.github.io/devlog/2018/03/02/devlog-android-buildvariants-1/)
 
 <br/>
 
 #### productFlavors
 ----
-- defaultConfig는 모든 버전에 대해 기본 구성을 제공합니다.(applicationId와 같은 모든 기본값 변경)
+- defaultConfig는 ProductFlavor의 클래스에 속하며 모든 버전에 대해 기본 구성을 제공합니다.(applicationId와 같은 모든 기본값 변경)
 - applicationId, version code, version name 등 앱의 속성을 다르게 설정할 수 있습니다.
 - 모듈별 **build.gradle** 스크립트에 `productFlavors` 속성을 추가하고 원하는 flavor을 추가합니다.
 - flavorDimensions로 버전의 그룹명을 지정해주어야 합니다.(ex - "api", "mode")
@@ -55,7 +55,7 @@ android {
 <br/>
 
 만약 여기서 `flavorDimensions` 이 없을 경우 아래와 같은 오류가 발생하게 됩니다.
-![flavorDimensions_error](/assets/img/android/flavorDimensions_error.png){: width="80%" height="80%"}
+![flavorDimensions_error](/assets/img/android/flavorDimensions_error.png){: width="90%" height="90%"}
 
 <br/>
 
@@ -75,19 +75,20 @@ versionNameSuffix 또한 동일합니다.
 
 <br/><br/>
 
-####소스 세트 생성
+#### 소스 세트 생성
 -----
+
 https://developer.android.com/studio/build/build-variants.html#sourcesets
 
 1. Project 창을 열고 창 상단의 드롭다운 메뉴에서 Project 뷰를 선택합니다.
 2. MyProject/app/src/로 이동합니다.
 3. src 디렉토리를 마우스 오른쪽 버튼으로 클릭하고 New > Directory를 선택합니다.
-4. applicationIdSuffix에 적은 값과 동일하게 적어준 뒤 OK를 클릭합니다.(ex - lite)
+4. applicationIdSuffix에 적은 값과 동일하게 적어준 뒤 OK를 클릭합니다.(ex - `lite` )
 5. 생성한 디렉토리 안에 java/ 디렉토리를 생성합니다.
 
 만약 추가로 다른 xml파일을 생성하고 싶다면,
 1. 동일한 Project 창에서 src 디렉토리를 마우스 오른쪽 버튼으로 클릭하고 New > Android Resource Directory를 선택합니다.
-2. Source Set 옆의 드롭다운 메뉴에서 해당 버전을 선택합니다.(ex - lite)
+2. Source Set 옆의 드롭다운 메뉴에서 해당 버전을 선택합니다.(ex - `lite` )
 3. OK를 클릭합니다.
 
 선택한 Build Variant 값에 따라 해당 버전이 활성화 됨을 볼 수 있습니다.
@@ -95,6 +96,7 @@ https://developer.android.com/studio/build/build-variants.html#sourcesets
 ---
 만약, 소스 세트의 AndroidManifest.xml 파일들의 충돌로 apk 파일이 2개 생성 되는 등의 오류가 발생하면 다음 글을 참고해주세요 :)
 ~~제가 그랬거든요..ㅎㅎ~~
+https://developer.android.com/studio/build/manifest-merge.html
 
 >참고
 >https://developer.android.com/studio/build/build-variants.html
