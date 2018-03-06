@@ -93,6 +93,7 @@ https://developer.android.com/studio/build/build-variants.html#sourcesets
 
 선택한 Build Variant 값에 따라 해당 버전이 활성화 됨을 볼 수 있습니다.
 
+![buildvariants_src](/assets/img/android/buildvariants-src.png){: width="60%" height="60%"}
 ---
 만약, 소스 세트의 AndroidManifest.xml 파일들의 충돌로 apk 파일이 2개 생성 되는 등의 오류가 발생하면 다음 글을 참고해주세요 :)
 ~~제가 그랬거든요..ㅎㅎ~~
