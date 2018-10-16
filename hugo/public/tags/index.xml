@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Arthur Dent</title>
+    <title>Tags on hyerim blog</title>
     <link>https://hye-rim.github.io/tags/</link>
-    <description>Recent content in Tags on Arthur Dent</description>
+    <description>Recent content in Tags on hyerim blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>ko-kr</language>
     
 	<atom:link href="https://hye-rim.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
