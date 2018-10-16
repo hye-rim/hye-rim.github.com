@@ -1,1 +1,0 @@
-# hye-rim.github.com
