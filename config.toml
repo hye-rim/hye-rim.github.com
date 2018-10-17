@@ -46,16 +46,16 @@ description            = "Don't panic"
 email                  = "phl2898@gmail.com"
 extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/leaf.ico"
-github                 = "//github.com/you"
-instagram              = "//instagram.com/you"
-px500                  = "//500px.com/username"
+github                 = "//github.com/hye-rim"
+# instagram              = "//instagram.com/you"
+# px500                  = "//500px.com/username"
 lang                   = "en"
-linkedin               = "//linkedin.com/in/you"
+# linkedin               = "//linkedin.com/in/you"
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
 selfintro              = ""                            # appears in the site header when set to a non-empty string
-twitter                = "//twitter.com/you"
-mastodon               = "//example.com/@you"
-telegram               = "//t.me/you"
+# twitter                = "//twitter.com/you"
+# mastodon               = "//example.com/@you"
+# telegram               = "//t.me/you"
 
 highlightjs            = true
 # highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
@@ -67,7 +67,7 @@ piwik                  = false                         # If true, Piwik integrat
 
 gitalk                 = false
 # if gitalk is true, the following params should be set. These parameters could be retrieved from github OAuth
-gitalk_clientID        = "your client id"
+gitalk_clientID        = "hye-rim"
 gitalk_clientSecret    = "your client secret"
 gitalk_repo            = "your repo url"
 gitalk_owner           = "the owner of this repo"
