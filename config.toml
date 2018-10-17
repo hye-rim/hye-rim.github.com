@@ -9,7 +9,7 @@ theme               = "cocoa"
 author              = "hyerim"
 title               = "hyerim blog"
 pygmentsuseclasses  = true
-# disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
+disqusshortname     = "hyerims-blog" # Comment out to disable Disqus.
 pluralizelisttitles = false
 # googleAnalytics     = "UA-123-45"
 
@@ -77,5 +77,5 @@ avatar                 = "img/profile.jpeg" # path to image in static dir e.g im
 # gravatar             = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
 
 # The following are DEPRECATED.
-gatracker              = "XYZ" # use googleAnalytics instead
+gatracker              = "UA-111392347-1" # use googleAnalytics instead
 initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
