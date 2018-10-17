@@ -11,7 +11,7 @@ title               = "hyerim blog"
 pygmentsuseclasses  = true
 disqusshortname     = "hyerims-blog" # Comment out to disable Disqus.
 pluralizelisttitles = false
-# googleAnalytics     = "UA-123-45"
+googleAnalytics     = "UA-111392347-1"
 
 [permalinks]
 blog  = "blog/:slug/"
@@ -35,14 +35,14 @@ identifier             = "code"
 url                    = "/code/"
 
 [params]
-include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+include_rss            = false                          # include RSS <link> tag in <head> and show RSS icon
 latestpostscount       = 5                             # how many posts to display on the home page
 i18n_flags             = false                         # whether to display small country flags for available translations
 author                 = "hyerim blog"
 cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-description            = "Don't panic"
+description            = ""
 email                  = "phl2898@gmail.com"
 extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/leaf.ico"
@@ -77,5 +77,5 @@ avatar                 = "img/profile.jpeg" # path to image in static dir e.g im
 # gravatar             = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
 
 # The following are DEPRECATED.
-gatracker              = "UA-111392347-1" # use googleAnalytics instead
+gatracker              = "XYZ" # use googleAnalytics instead
 initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
