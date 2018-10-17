@@ -17,16 +17,16 @@ googleAnalytics     = "UA-111392347-1"
 blog  = "blog/:slug/"
 
 [[menu.main]]
-name                   = "Devlog"
-weight                 = -120
-identifier             = "devlog"
-url                    = "/devlog/"
-
-[[menu.main]]
 name                   = "About"
-weight                 = -110
+weight                 = -120
 identifier             = "about"
 url                    = "/about/"
+
+[[menu.main]]
+name                   = "Devlog"
+weight                 = -110
+identifier             = "devlog"
+url                    = "/devlog/"
 
 [[menu.main]]
 name                   = "Tip"
