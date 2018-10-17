@@ -28,7 +28,7 @@ tags: android
 - flavorDimensions로 버전의 그룹명을 지정해주어야 합니다.(ex - "api", "mode")
 
 아래 그림처럼 구현하기 위해 이전 글에 이어 `productFlavors`를 추가하겠습니다.
-![buildtypes+productFlavors](/assets/img/android/buildtypes+productflavors.png){: width="80%" height="80%"}
+![buildtypes+productFlavors](/img/android/buildtypes+productflavors.png){: width="80%" height="80%"}
 <br/>
 ~~~java
 android {
@@ -57,7 +57,7 @@ android {
 <br/>
 
 만약 여기서 `flavorDimensions` 이 없을 경우 아래와 같은 오류가 발생하게 됩니다.
-![flavorDimensions_error](/assets/img/android/flavorDimensions_error.png){: width="90%" height="90%"}
+![flavorDimensions_error](/img/android/flavorDimensions_error.png){: width="90%" height="90%"}
 
 <br/>
 
@@ -73,7 +73,7 @@ versionNameSuffix 또한 동일합니다.
 
 - Gradle은 빌드 유형과 제품 버전에 따라 자동으로 빌드 변형을 생성하고 product flavor, Build Type에 따라 빌드 변형의 이름을 지정합니다.
 
-![buildvariant_set](/assets/img/android/buildvariants-buildTypes+productFlavors.png){: width="300" height="300"}
+![buildvariant_set](/img/android/buildvariants-buildTypes+productFlavors.png){: width="300" height="300"}
 
 <br/><br/>
 
@@ -95,7 +95,7 @@ https://developer.android.com/studio/build/build-variants.html#sourcesets
 
 선택한 Build Variant 값에 따라 해당 버전이 활성화 됨을 볼 수 있습니다.
 
-![buildvariants_src](/assets/img/android/buildvariants-src.png){: width="60%" height="60%"}
+![buildvariants_src](/img/android/buildvariants-src.png){: width="60%" height="60%"}
 
 ---
 만약, 소스 세트의 AndroidManifest.xml 파일들의 충돌로 apk 파일이 2개 생성 되는 등의 오류가 발생하면 다음 글을 참고해주세요 :)
