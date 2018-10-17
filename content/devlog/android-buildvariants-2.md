@@ -2,7 +2,7 @@
 layout: post
 title:  "[Gradle Build Variants] 다양한 버전의 앱 생성하기 - productFlavors"
 comments: true
-date: 2017-03-06T17:10:20+09:00
+date: 2018-03-06T17:10:20+09:00
 draft: false
 categories: devlog
 tags: android
