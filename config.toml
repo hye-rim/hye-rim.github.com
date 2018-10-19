@@ -23,6 +23,7 @@ description = "hyerim blog"
 copyright = "Copyright © 2015 Nishanth Shanmugham"
 logofile = "img/profile.jpeg"
 faviconfile = "img/profile.jpeg"
+avator = "imag/profile.jpeg"
 highlightjs = true
 progressively = true
 align_left = false
