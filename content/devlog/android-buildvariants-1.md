@@ -3,7 +3,7 @@ layout: post
 title:  "[Gradle Build Variants] 다양한 버전의 앱 생성하기 - buildType"
 date: 2018-03-02T17:10:20+09:00
 draft: false
-comments: true
+best: true
 categories: devlog
 tags: android
 ---

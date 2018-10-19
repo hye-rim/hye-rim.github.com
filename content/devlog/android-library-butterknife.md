@@ -6,6 +6,7 @@ layout: post
 comments: true
 categories: [devlog]
 tags: [android]
+best: true
 ---
 
 **ButterKnife를 사용해보자**
