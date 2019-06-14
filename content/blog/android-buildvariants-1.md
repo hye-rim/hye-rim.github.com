@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "[Gradle Build Variants] 다양한 버전의 앱 생성하기 - buildType"
+title: "[Gradle Build Variants] 다양한 버전의 앱 생성하기 - buildType"
 date: 2018-03-02T17:10:20+09:00
 draft: false
-best: true
-categories: devlog
-tags: android
+author: "hyerim"
+categories: ["blog"]
+tags: ["android"]
 ---
 
 앱을 개발하다 보면 한가지 버전의 앱만으로는 아쉬울 때가 종종 있습니다. 예를 들어
@@ -106,7 +106,7 @@ private Retrofit getRetrofitSetting() {
 <br/>
 
 다음 포스팅에서는 아래 그림처럼 구현하기 위해 productFlavors를 추가로 알아보겠습니다.  
-[[Gradle Build Variants] 다양한 버전의 앱 생성하기 - productFlavors](https://hye-rim.github.io/devlog/2018/03/06/devlog-android-buildvariants-2/)
+[[Gradle Build Variants] 다양한 버전의 앱 생성하기 - productFlavors](https://hye-rim.github.io/blog/blog-android-buildvariants-2/)
 ![buildtypes+productFlavors](/img/android/buildtypes+productflavors.png){: width="80%" height="80%"}
 
 

@@ -12,6 +12,7 @@ pygmentsuseclasses  = true
 disqusshortname     = "hyerims-blog"
 googleAnalytics     = "UA-111392347-1"
 pluralizelisttitles = false
+features    = ["blog", "responsive", "404", "icons", "disqus", "metadata"]
 
 [permalinks]
 blog = "blog/:slug/"

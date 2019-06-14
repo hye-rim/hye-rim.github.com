@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "001.Swift란?"
+title:  001.Swift란?
 comments: true
-categories: devlog
+categories: blog
 date: 2017-12-20T17:10:20+09:00
 draft: false
-tags: swift
+author: "hyerim"
+categories: ["blog"]
+tags: ["swift"]
 ---
 
 Swift란?

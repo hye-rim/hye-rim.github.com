@@ -4,9 +4,9 @@ date: 2017-07-19T17:10:20+09:00
 draft: false
 layout: post
 comments: true
-categories: [devlog]
-tags: [android]
-best: true
+author: "hyerim"
+categories: ["blog"]
+tags: ["android"]
 ---
 
 **ButterKnife를 사용해보자**

@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "[Gradle Build Variants] 다양한 버전의 앱 생성하기 - productFlavors"
+title: "[Gradle Build Variants] 다양한 버전의 앱 생성하기 - productFlavors"
 description: "이전 글에서는 build type을 달리 하는 법을 알아봤다면, 이번에는 여러 버전의 앱을 만들기 위해 gradle의 productFlavors 속성을 활용하는 법을 알아보겠습니다."
 comments: true
 date: 2018-03-06T17:10:20+09:00
 draft: false
-best : true
-categories: devlog
+author: "hyerim"
+categories: ["blog"]
 tags: ["android"]
 ---
 
@@ -18,7 +18,7 @@ tags: ["android"]
 - 관리자를 위한 admin version 앱
 
 >만약 buildType 속성을 활용해 debug, alpha, beta, release 등 build type을 달리 설정하는 방법이 궁금하시다면 아래의 이전 글을 참고해주세요.  
-> [[Gradle Build Variants] 다양한 버전의 앱 생성하기 - buildType](https://hye-rim.github.io/devlog/2018/03/02/devlog-android-buildvariants-1/)
+> [[Gradle Build Variants] 다양한 버전의 앱 생성하기 - buildType](https://hye-rim.github.io/blog/2018/03/02/blog-android-buildvariants-1/)
 
 <br/>
 

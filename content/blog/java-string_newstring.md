@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "String, new String"
+title:  String, new String
 date: 2017-12-19T17:10:20+09:00
 draft: false
 comments: true
 subtitle:   "String 생성방식"
-categories: devlog
+categories: blog
 tags: java
 ---
 
