@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swift on hyerim blog</title>
-    <link>https://hye-rim.github.io/tags/swift/</link>
+    <link>https://hyerim-p.github.io/tags/swift/</link>
     <description>Recent content in Swift on hyerim blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 20 Dec 2017 17:10:20 +0900</lastBuildDate>
     
-	<atom:link href="https://hye-rim.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hyerim-p.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>001.Swift란?</title>
-      <link>https://hye-rim.github.io/devlog/swift-01_swift/</link>
+      <link>https://hyerim-p.github.io/devlog/swift-01_swift/</link>
       <pubDate>Wed, 20 Dec 2017 17:10:20 +0900</pubDate>
       
-      <guid>https://hye-rim.github.io/devlog/swift-01_swift/</guid>
+      <guid>https://hyerim-p.github.io/devlog/swift-01_swift/</guid>
       <description>Swift란? Swift는 안전, 성능 및 소프트웨어 디자인 패턴에 대한 현대적인 접근 방식을 사용하여 만들어진 범용 프로그래밍 언어다. 또한 오픈 소스이다.
  애플의 iOS와 OS X를 위한 프로그래밍 언어
  기존의 애플 운영체제용 언어인 Objective-C와 함께 공존할 목적으로 만들어졌으며 Objective-C와 마찬가지로 LLVM으로 빌드되고 같은 런타임을 공유한다.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on hyerim blog</title>
-    <link>https://hye-rim.github.io/tags/android/</link>
+    <link>https://hyerim-p.github.io/tags/android/</link>
     <description>Recent content in Android on hyerim blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 06 Mar 2018 17:10:20 +0900</lastBuildDate>
     
-	<atom:link href="https://hye-rim.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hyerim-p.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[Gradle Build Variants] 다양한 버전의 앱 생성하기 - productFlavors</title>
-      <link>https://hye-rim.github.io/devlog/android-buildvariants-2/</link>
+      <link>https://hyerim-p.github.io/devlog/android-buildvariants-2/</link>
       <pubDate>Tue, 06 Mar 2018 17:10:20 +0900</pubDate>
       
-      <guid>https://hye-rim.github.io/devlog/android-buildvariants-2/</guid>
+      <guid>https://hyerim-p.github.io/devlog/android-buildvariants-2/</guid>
       <description>이전 글에서는 build type을 달리 하는 법을 알아봤다면, 이번에는 여러 버전의 앱을 만들기 위해 gradle의 productFlavors 속성을 활용하는 법을 알아보겠습니다.
 이 글에서 설정할 버전은 다음과 같습니다. - 기존 버전의 full version 앱 - 앱의 크기가 커져서 가벼운 버전을 선호하는 사용자를 위한 lite version 앱 - 관리자를 위한 admin version 앱
  만약 buildType 속성을 활용해 debug, alpha, beta, release 등 build type을 달리 설정하는 방법이 궁금하시다면 아래의 이전 글을 참고해주세요.</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>[Gradle Build Variants] 다양한 버전의 앱 생성하기 - buildType</title>
-      <link>https://hye-rim.github.io/devlog/android-buildvariants-1/</link>
+      <link>https://hyerim-p.github.io/devlog/android-buildvariants-1/</link>
       <pubDate>Fri, 02 Mar 2018 17:10:20 +0900</pubDate>
       
-      <guid>https://hye-rim.github.io/devlog/android-buildvariants-1/</guid>
+      <guid>https://hyerim-p.github.io/devlog/android-buildvariants-1/</guid>
       <description>앱을 개발하다 보면 한가지 버전의 앱만으로는 아쉬울 때가 종종 있습니다. 예를 들어 - 광고의 여부에 따라 free/paid version 앱 - 앱의 크기가 커져서 가벼운 버전을 선호하는 사용자를 위한 lite version 앱 - 관리자를 위한 admin version 앱
 그냥 별 고민하지 않고 만든다면 아마 프로젝트를 복사하여 여러 개의 프로젝트를 생성할 것입니다. 이렇게 되면 수정/추가해야 할 사항이 있다면 모든 프로젝트를 수정해야 하고, 같은 부분임에도 코드가 다른 경우가 발생할 것입니다.
 또한, 개발 서버와 릴리즈 서버가 구분되어 있을 경우 상황에 따라 서버 부분 코드를 계속 바꿔줘야 합니다.</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>안드로이드 라이브러리 사용하기 - 001.Butter Knife</title>
-      <link>https://hye-rim.github.io/devlog/android-library-butterknife/</link>
+      <link>https://hyerim-p.github.io/devlog/android-library-butterknife/</link>
       <pubDate>Wed, 19 Jul 2017 17:10:20 +0900</pubDate>
       
-      <guid>https://hye-rim.github.io/devlog/android-library-butterknife/</guid>
+      <guid>https://hyerim-p.github.io/devlog/android-library-butterknife/</guid>
       <description>ButterKnife를 사용해보자
 버터가 먹고싶어지는 로고다
 ButterKnife는 필드나 메소드가 안드로이드 뷰에 접근할 때 어노테이션(@)을 사용하여 더욱 편하게 접근하여 개발할 수 있도록 도와주는 라이브러리다.
